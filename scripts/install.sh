@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 # =============================================================
 #  Claude Code Statusline - installer for Linux / macOS / WSL2
-#  Usage A (one-liner)   : curl -fsSL https://raw.githubusercontent.com/tommy401-TW/claude-statusline/main/install.sh | bash
+#  Usage A (one-liner)   : curl -fsSL https://raw.githubusercontent.com/tommy401-TW/claude-statusline/main/scripts/install.sh | bash
 #  Usage B (from a clone): bash ./install.sh
 #  Requires: python3
 # =============================================================
 set -euo pipefail
 
-REPO_RAW_BASE="https://raw.githubusercontent.com/tommy401-TW/claude-statusline/main"
+REPO_RAW_BASE="https://raw.githubusercontent.com/tommy401-TW/claude-statusline/main/scripts"
 CLAUDE_DIR="$HOME/.claude"
 
 if ! command -v python3 >/dev/null 2>&1; then

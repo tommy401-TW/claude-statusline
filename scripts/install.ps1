@@ -1,12 +1,12 @@
 # =============================================================
 #  Claude Code Statusline - one-line installer
-#  Usage A (one-liner)   : irm https://raw.githubusercontent.com/tommy401-TW/claude-statusline/main/install.ps1 | iex
+#  Usage A (one-liner)   : irm https://raw.githubusercontent.com/tommy401-TW/claude-statusline/main/scripts/install.ps1 | iex
 #  Usage B (from a clone): powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1
 #  Compatible with Windows PowerShell 5.1
 # =============================================================
 $ErrorActionPreference = 'Stop'
 
-$repoRawBase = 'https://raw.githubusercontent.com/tommy401-TW/claude-statusline/main'
+$repoRawBase = 'https://raw.githubusercontent.com/tommy401-TW/claude-statusline/main/scripts'
 $claudeDir   = Join-Path $env:USERPROFILE '.claude'
 if (-not (Test-Path $claudeDir)) { New-Item -ItemType Directory -Path $claudeDir | Out-Null }
 
