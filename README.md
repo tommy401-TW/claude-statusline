@@ -1,6 +1,6 @@
-# claude-statusline
+# CLAUDE-STATUSLINE
 
-A colored progress-bar statusline for Claude Code — Windows / Linux / macOS / WSL2.
+A colored progress-bar statusline for Claude Code — Windows / Linux / macOS.
 
 <p align="center"><img src="assets/demo.svg" alt="claude-statusline preview"></p>
 
@@ -17,7 +17,13 @@ Windows (PowerShell):
 irm https://raw.githubusercontent.com/tommy401-TW/claude-statusline/main/scripts/install.ps1 | iex
 ```
 
-Linux / macOS / WSL2:
+Windows (cmd):
+
+```cmd
+powershell -NoProfile -ExecutionPolicy Bypass -Command "irm https://raw.githubusercontent.com/tommy401-TW/claude-statusline/main/scripts/install.ps1 | iex"
+```
+
+Linux / macOS:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/tommy401-TW/claude-statusline/main/scripts/install.sh | bash
