@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="812" height="64" viewBox="0 0 812 64" role="img" aria-label="claude-statusline preview">
-  <rect x="0.5" y="0.5" width="811" height="63" rx="8" fill="#0d1117" stroke="#30363d"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="64" viewBox="0 0 1080 64" role="img" aria-label="claude-statusline preview">
+  <rect x="0.5" y="0.5" width="1079" height="63" rx="8" fill="#0d1117" stroke="#30363d"/>
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14">
-    <text x="24" y="37" xml:space="preserve" fill="#e6edf3">ctx <tspan fill="#3fb950">███</tspan><tspan fill="#6e7681">░░░░░░░</tspan> <tspan fill="#3fb950">34%</tspan>  <tspan fill="#6e7681">|</tspan>  5h <tspan fill="#d29922">██████</tspan><tspan fill="#6e7681">░░░░</tspan> <tspan fill="#d29922">63%</tspan> <tspan fill="#56d4dd">reset 1h 38m</tspan>  <tspan fill="#6e7681">|</tspan>  7d <tspan fill="#f85149">█████████</tspan><tspan fill="#6e7681">░</tspan> <tspan fill="#f85149">87%</tspan> <tspan fill="#56d4dd">reset 2d 2h</tspan></text>
+    <text x="24" y="37" xml:space="preserve" fill="#e6edf3">ctx <tspan fill="#3fb950">███</tspan><tspan fill="#6e7681">░░░░░░░</tspan> <tspan fill="#3fb950">34%</tspan>  <tspan fill="#6e7681">|</tspan>  5h <tspan fill="#d29922">██████</tspan><tspan fill="#6e7681">░░░░</tspan> <tspan fill="#d29922">63%</tspan> <tspan fill="#56d4dd">reset 1h 38m</tspan>  <tspan fill="#6e7681">|</tspan>  7d <tspan fill="#f85149">█████████</tspan><tspan fill="#6e7681">░</tspan> <tspan fill="#f85149">87%</tspan> <tspan fill="#56d4dd">reset 2d 2h</tspan>  <tspan fill="#6e7681">|</tspan>  <tspan fill="#6e7681">Token D</tspan> 6.8M  <tspan fill="#6e7681">M</tspan> 170.8M  <tspan fill="#6e7681">Y</tspan> 1.2B</text>
   </g>
 </svg>

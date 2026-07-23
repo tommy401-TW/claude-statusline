@@ -8,6 +8,7 @@ A colored progress-bar statusline for Claude Code — Windows / Linux / macOS.
 
 - Three segments: **ctx** (context window), **5h** (5-hour usage), **7d** (7-day usage)
 - 🟢 green (`<50%`) → 🟡 yellow (`50–80%`) → 🔴 red (`>=80%`)
+- Token usage: **D** (today) / **M** (this month) / **Y** (this year) — aggregated locally from Claude Code transcripts, survives transcript cleanup
 
 ## Install
 
