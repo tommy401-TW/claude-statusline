@@ -2,9 +2,7 @@
 
 A custom Claude Code statusline: colored progress bars for context window and Pro/Max usage, with rate-limit reset countdowns. Works on **Windows** (PowerShell 5.1) and **Linux / macOS / WSL2** (python3).
 
-```
-ctx ███░░░░░░░ 34%  |  5h ███████░░░ 65% reset 1h 38m  |  7d █████████░ 90% reset 2d 2h
-```
+<p align="center"><img src="assets/demo.svg" alt="claude-statusline preview: ctx, 5h and 7d segments with colored progress bars and reset countdowns"></p>
 
 ## Features
 
@@ -60,6 +58,14 @@ powershell -NoProfile -ExecutionPolicy Bypass -File "$env:USERPROFILE\.claude\co
 ```bash
 # Linux / macOS / WSL2
 bash ~/.claude/color_demo.sh
+```
+
+Sample output:
+
+```ansi
+GREEN  (<50%)   ctx [32m███[2m░░░░░░░[0m [32m32%[0m  [2m|[0m  5h [32m███[2m░░░░░░░[0m [32m32%[0m [96mreset 1h 38m[0m  [2m|[0m  7d [32m███[2m░░░░░░░[0m [32m32%[0m [96mreset 2d 2h[0m
+YELLOW (50-80%) ctx [33m███████[2m░░░[0m [33m65%[0m  [2m|[0m  5h [33m███████[2m░░░[0m [33m65%[0m [96mreset 1h 38m[0m  [2m|[0m  7d [33m███████[2m░░░[0m [33m65%[0m [96mreset 2d 2h[0m
+RED    (>=80%)  ctx [31m█████████[2m░[0m [31m91%[0m  [2m|[0m  5h [31m█████████[2m░[0m [31m91%[0m [96mreset 1h 37m[0m  [2m|[0m  7d [31m█████████[2m░[0m [31m91%[0m [96mreset 2d 1h[0m
 ```
 
 ## Customization
