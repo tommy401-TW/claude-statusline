@@ -1,4 +1,4 @@
-﻿# =============================================================
+# =============================================================
 #  Claude Code Statusline - one-line installer
 #  Usage A (one-liner)   : irm https://raw.githubusercontent.com/tommy401-TW/claude-statusline/main/install.ps1 | iex
 #  Usage B (from a clone): powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1
