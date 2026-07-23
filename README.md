@@ -60,14 +60,6 @@ powershell -NoProfile -ExecutionPolicy Bypass -File "$env:USERPROFILE\.claude\co
 bash ~/.claude/color_demo.sh
 ```
 
-Sample output:
-
-```ansi
-GREEN  (<50%)   ctx [32m███[2m░░░░░░░[0m [32m32%[0m  [2m|[0m  5h [32m███[2m░░░░░░░[0m [32m32%[0m [96mreset 1h 38m[0m  [2m|[0m  7d [32m███[2m░░░░░░░[0m [32m32%[0m [96mreset 2d 2h[0m
-YELLOW (50-80%) ctx [33m███████[2m░░░[0m [33m65%[0m  [2m|[0m  5h [33m███████[2m░░░[0m [33m65%[0m [96mreset 1h 38m[0m  [2m|[0m  7d [33m███████[2m░░░[0m [33m65%[0m [96mreset 2d 2h[0m
-RED    (>=80%)  ctx [31m█████████[2m░[0m [31m91%[0m  [2m|[0m  5h [31m█████████[2m░[0m [31m91%[0m [96mreset 1h 37m[0m  [2m|[0m  7d [31m█████████[2m░[0m [31m91%[0m [96mreset 2d 1h[0m
-```
-
 ## Customization
 
 Edit the ANSI color codes at the top of `~/.claude/statusline.ps1` (Windows) or `~/.claude/statusline.py` (Linux/macOS):
