@@ -1,6 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="64" viewBox="0 0 1080 64" role="img" aria-label="claude-statusline preview">
-  <rect x="0.5" y="0.5" width="1079" height="63" rx="8" fill="#0d1117" stroke="#30363d"/>
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14">
-    <text x="24" y="37" xml:space="preserve" fill="#e6edf3">ctx <tspan fill="#3fb950">███</tspan><tspan fill="#6e7681">░░░░░░░</tspan> <tspan fill="#3fb950">34%</tspan>  <tspan fill="#6e7681">|</tspan>  5h <tspan fill="#d29922">██████</tspan><tspan fill="#6e7681">░░░░</tspan> <tspan fill="#d29922">63%</tspan> <tspan fill="#56d4dd">reset 1h 38m</tspan>  <tspan fill="#6e7681">|</tspan>  7d <tspan fill="#f85149">█████████</tspan><tspan fill="#6e7681">░</tspan> <tspan fill="#f85149">87%</tspan> <tspan fill="#56d4dd">reset 2d 2h</tspan>  <tspan fill="#6e7681">|</tspan>  <tspan fill="#6e7681">Token D</tspan> 6.8M  <tspan fill="#6e7681">M</tspan> 170.8M  <tspan fill="#6e7681">Y</tspan> 1.2B</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1070" height="64" viewBox="0 0 1070 64" role="img" aria-label="claude-statusline preview">
+  <rect x="0.5" y="0.5" width="1069" height="63" rx="8" fill="#0d1117" stroke="#30363d"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" lengthAdjust="spacingAndGlyphs">
+    <!-- ctx segment -->
+    <text x="24" y="41" fill="#e6edf3" textLength="25.2">ctx</text>
+    <g>
+      <rect x="57.6" y="27" width="7.4" height="15" fill="#3fb950"/><rect x="66" y="27" width="7.4" height="15" fill="#3fb950"/><rect x="74.4" y="27" width="7.4" height="15" fill="#3fb950"/>
+      <rect x="82.8" y="27" width="7.4" height="15" fill="#2d333b"/><rect x="91.2" y="27" width="7.4" height="15" fill="#2d333b"/><rect x="99.6" y="27" width="7.4" height="15" fill="#2d333b"/><rect x="108" y="27" width="7.4" height="15" fill="#2d333b"/><rect x="116.4" y="27" width="7.4" height="15" fill="#2d333b"/><rect x="124.8" y="27" width="7.4" height="15" fill="#2d333b"/><rect x="133.2" y="27" width="7.4" height="15" fill="#2d333b"/>
+    </g>
+    <text x="149" y="41" fill="#3fb950" textLength="25.2">34%</text>
+    <text x="191" y="41" fill="#6e7681" textLength="8.4">|</text>
+    <!-- 5h segment -->
+    <text x="216.2" y="41" fill="#e6edf3" textLength="16.8">5h</text>
+    <g>
+      <rect x="241.4" y="27" width="7.4" height="15" fill="#d29922"/><rect x="249.8" y="27" width="7.4" height="15" fill="#d29922"/><rect x="258.2" y="27" width="7.4" height="15" fill="#d29922"/><rect x="266.6" y="27" width="7.4" height="15" fill="#d29922"/><rect x="275" y="27" width="7.4" height="15" fill="#d29922"/><rect x="283.4" y="27" width="7.4" height="15" fill="#d29922"/>
+      <rect x="291.8" y="27" width="7.4" height="15" fill="#2d333b"/><rect x="300.2" y="27" width="7.4" height="15" fill="#2d333b"/><rect x="308.6" y="27" width="7.4" height="15" fill="#2d333b"/><rect x="317" y="27" width="7.4" height="15" fill="#2d333b"/>
+    </g>
+    <text x="332.8" y="41" fill="#d29922" textLength="25.2">63%</text>
+    <text x="366.4" y="41" fill="#56d4dd" textLength="100.8">reset 1h 38m</text>
+    <text x="484" y="41" fill="#6e7681" textLength="8.4">|</text>
+    <!-- 7d segment -->
+    <text x="509.2" y="41" fill="#e6edf3" textLength="16.8">7d</text>
+    <g>
+      <rect x="534.4" y="27" width="7.4" height="15" fill="#f85149"/><rect x="542.8" y="27" width="7.4" height="15" fill="#f85149"/><rect x="551.2" y="27" width="7.4" height="15" fill="#f85149"/><rect x="559.6" y="27" width="7.4" height="15" fill="#f85149"/><rect x="568" y="27" width="7.4" height="15" fill="#f85149"/><rect x="576.4" y="27" width="7.4" height="15" fill="#f85149"/><rect x="584.8" y="27" width="7.4" height="15" fill="#f85149"/><rect x="593.2" y="27" width="7.4" height="15" fill="#f85149"/><rect x="601.6" y="27" width="7.4" height="15" fill="#f85149"/>
+      <rect x="610" y="27" width="7.4" height="15" fill="#2d333b"/>
+    </g>
+    <text x="625.8" y="41" fill="#f85149" textLength="25.2">87%</text>
+    <text x="659.4" y="41" fill="#56d4dd" textLength="92.4">reset 2d 2h</text>
+    <text x="768.6" y="41" fill="#6e7681" textLength="8.4">|</text>
+    <!-- Token segment -->
+    <text x="793.8" y="41" fill="#6e7681" textLength="42">Token</text>
+    <text x="844.2" y="41" fill="#6e7681" textLength="8.4">D</text>
+    <text x="861" y="41" fill="#e6edf3" textLength="33.6">6.8M</text>
+    <text x="911.4" y="41" fill="#6e7681" textLength="8.4">M</text>
+    <text x="928.2" y="41" fill="#e6edf3" textLength="50.4">170.8M</text>
+    <text x="995.4" y="41" fill="#6e7681" textLength="8.4">Y</text>
+    <text x="1012.2" y="41" fill="#e6edf3" textLength="33.6">1.2B</text>
   </g>
 </svg>
