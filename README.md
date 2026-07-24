@@ -15,17 +15,17 @@ A colored progress-bar statusline for Claude Code — Windows / Linux / macOS.
 Windows (PowerShell):
 
 ```powershell
-irm https://raw.githubusercontent.com/tommy401-TW/claude-statusline/main/scripts/install.ps1 | iex
+irm https://raw.githubusercontent.com/Tzu-YangLi/claude-statusline/main/scripts/install.ps1 | iex
 ```
 
 Windows (cmd):
 
 ```cmd
-powershell -NoProfile -ExecutionPolicy Bypass -Command "irm https://raw.githubusercontent.com/tommy401-TW/claude-statusline/main/scripts/install.ps1 | iex"
+powershell -NoProfile -ExecutionPolicy Bypass -Command "irm https://raw.githubusercontent.com/Tzu-YangLi/claude-statusline/main/scripts/install.ps1 | iex"
 ```
 
 Linux / macOS:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/tommy401-TW/claude-statusline/main/scripts/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/Tzu-YangLi/claude-statusline/main/scripts/install.sh | bash
 ```
